@@ -1,0 +1,31 @@
+.navbar-nav > li{
+    padding-left:103.4px;
+    padding-right:103.4px;
+}
+
+body{
+    background-color: #1f1f2e;
+}
+
+.Starting{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+}
+
+#center{
+    justify-content: center;
+}
+
+form{
+    padding-top: 50px;
+    text-align: center;
+}

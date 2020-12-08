@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PokéShop</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script>
+            navigator.geolocation.getCurrentPosition(function(position) {
+                document.querySelector('#result').innerHTML = 'Keeping your location ( '+ position.coords.latitude +', '+ position.coords.longitude +' ) in mind, Here are some devices available.';
+            });
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
+            <a class="navbar-brand" href="#">Pokédex</a>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Pokédex.html">Pokédex<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Pokéballs.html">Pokéballs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Gear.html">Gear</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tournaments.html">Tournaments</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+          <div id="result" class="Starting">Keeping your location in mind, Here are some devices available.</div> 
+          <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                <img class="card-img-top" src="https://img.rankedboost.com/wp-content/uploads/2017/09/Pokemon-GO-GEN-4-Pokedex.png">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Trainers Edition</h5>
+                    <p class="card-text">Gives rapid information about Pokémons by scanning the body. A perfect setup to search for new Pokémons</p>
+                </div>
+                <div class="card-footer text-center">
+                    <button type="button" class="btn btn-success">Price: Rs 27,990</button>
+                </div>
+                </div>
+                <div class="card">
+                <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/6/61/DP_Pokédex.png">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Competitive Edition</h5>
+                    <p class="card-text">A more competitive based device to scan the health of your Pokémon. The device scans the Pokéball and gives accurate readings.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <button type="button" class="btn btn-success">Price: Rs 69,990</button>
+                </div>
+                </div>
+                <div class="card">
+                <img class="card-img-top" src="https://cdn.bulbagarden.net/upload/0/08/LGPE_Pokedex.png">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Lab Edition</h5>
+                    <p class="card-text">The best research device ever created in the world of Pokémons. Scans the Pokémon and collects all the attributes. All data is given in spreadsheets.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <button type="button" class="btn btn-success">Price: Rs 21,90,990</button>
+                </div>
+                </div>
+            </div> 
+        </div> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>       
+    </body>
+</html>

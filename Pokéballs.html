@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PokéShop</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script>
+            navigator.geolocation.getCurrentPosition(function(position) {
+            document.querySelector('#result').innerHTML = 'Keeping your location ( '+ position.coords.latitude +', '+ position.coords.longitude +' ) in mind, Here are some devices available.';
+            });
+        </script>
+    </head>
+    <body>
+        <nav  class="navbar navbar-expand-lg navbar-dark justify-content-center" style="background-color: #cc0000;">
+            <a class="navbar-brand" href="#">Pokéballs</a>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Pokédex.html">Pokédex<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Pokéballs.html">Pokéballs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Gear.html">Gear</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tournaments.html">Tournaments</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+        <div id="result" class="Starting">Keeping your location in mind, Here are some balls available.</div> 
+            <div class="container">
+                <div class="card-deck">
+                    <div class="card">
+                    <img class="card-img-top" src="https://cdnb.artstation.com/p/assets/images/images/025/443/477/large/chirag-vijay-lrm-export-20200105-015007.jpg?1585811332">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Pack of 3</h5>
+                        <p class="card-text">A Poké Ball is a type of item that is critical to a Trainer's quest, used for catching and storing Pokémon. Both a general term used to describe the various kinds as well as a specific term to refer to the most basic among these variations, Poké Balls are ubiquitous in the modern Pokémon world. Up to six Pokémon can be carried with a Trainer in Poké Balls, while more Poké Balls can be held in the Bag for later use. </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="button" class="btn btn-success">Price: Rs 9000</button>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img class="card-img-top" src="https://i1.wp.com/nintendosoup.com/wp-content/uploads/2017/10/takara_tomy_pokeballs_jan2018_pic_1.png?resize=995%2C576&ssl=1">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Pack of 6</h5>
+                        <p class="card-text">A Poké Ball is a type of item that is critical to a Trainer's quest, used for catching and storing Pokémon. Both a general term used to describe the various kinds as well as a specific term to refer to the most basic among these variations, Poké Balls are ubiquitous in the modern Pokémon world. Up to six Pokémon can be carried with a Trainer in Poké Balls, while more Poké Balls can be held in the Bag for later use.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="button" class="btn btn-success">Price: Rs 17,000</button>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img class="card-img-top" src="https://nintendowire.com/wp-content/uploads/2017/04/Banner-PokeBalls.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Pack of 11</h5>
+                        <p class="card-text"> A Poké Ball is a type of item that is critical to a Trainer's quest, used for catching and storing Pokémon. Both a general term used to describe the various kinds as well as a specific term to refer to the most basic among these variations, Poké Balls are ubiquitous in the modern Pokémon world. Up to six Pokémon can be carried with a Trainer in Poké Balls, while more Poké Balls can be held in the Bag for later use.</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="button" class="btn btn-success">Price: Rs 30,000</button>
+                    </div>
+                    </div>
+                </div> 
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>  
+    </body>
+</html>
